@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1478791573385" stop="1478791661455" version="1.4.23.HOTFIX1" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ru.bk.akadnikov.tests.MarketNotebook</name>
+    <title>Яндекс маркет - Ноутбуки</title>
+    <test-cases>
+        <test-case start="1478791573423" stop="1478791625794" status="passed">
+            <name>yandexMarketNotebooksTest</name>
+            <title>Тест</title>
+            <steps>
+                <step start="1478791588183" stop="1478791591349" status="passed">
+                    <name>chooseMarket</name>
+                    <title>Перейти в яндекс маркет</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791591360" stop="1478791596471" status="passed">
+                    <name>chooseComputers</name>
+                    <title>Выбрать раздел Компьютеры</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791596473" stop="1478791599314" status="passed">
+                    <name>chooseNotebooks</name>
+                    <title>Выбрать раздел Ноутбуки</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791599319" stop="1478791604870" status="passed">
+                    <name>goToExtendedSearch</name>
+                    <title>Зайти в расширенный поиск</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791604873" stop="1478791605457" status="passed">
+                    <name>setPriceTo[30000]</name>
+                    <title>Задать параметр поиска - Цена до 30000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791610876" stop="1478791611422" status="passed">
+                    <name>chooseManufacturer[Acer]</name>
+                    <title>Выбрать производителя Acer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791611423" stop="1478791611809" status="passed">
+                    <name>chooseManufacturer[Lenovo]</name>
+                    <title>Выбрать производителя Lenovo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791611811" stop="1478791616935" status="passed">
+                    <name>clickOnApplyButton</name>
+                    <title>Нажать кнопку Применить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791617227" stop="1478791617657" status="passed">
+                    <name>checkResultsCount[[[[FirefoxDriver: firefox on WINDOWS (417d3357-92d5-49c2-8fbf-5c58f77226ed)] -&gt; xpath: //h3/a[contains...]</name>
+                    <title>Проверить, что элементов на странице 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791617661" stop="1478791617915" status="passed">
+                    <name>getFirstResultTitle</name>
+                    <title>Запомнить первый элемент в списке</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791617918" stop="1478791625672" status="passed">
+                    <name>search[Lenovo IdeaPad 100 15]</name>
+                    <title>Ввести в поисковую строку значение и начать поиск.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791625783" stop="1478791625790" status="passed">
+                    <name>checkProductTitle[Lenovo IdeaPad 100 15, Lenovo IdeaPad 100 15]</name>
+                    <title>Проверить, что наименование товара соответствует запомненному значению</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ПК-ПК"/>
+                <label name="thread" value="4684@ПК-ПК.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

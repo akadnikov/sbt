@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1478791625799" stop="1478791664472" version="1.4.23.HOTFIX1" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ru.bk.akadnikov.tests.MarketTablet</name>
+    <title>Яндекс маркет - Планшеты</title>
+    <test-cases>
+        <test-case start="1478791625801" stop="1478791661450" status="passed">
+            <name>MarketTabletTest</name>
+            <title>Тест</title>
+            <steps>
+                <step start="1478791627963" stop="1478791630560" status="passed">
+                    <name>chooseMarket</name>
+                    <title>Перейти в яндекс маркет</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791630561" stop="1478791634855" status="passed">
+                    <name>chooseComputers</name>
+                    <title>Выбрать раздел Компьютеры</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791634857" stop="1478791637941" status="passed">
+                    <name>chooseTablets</name>
+                    <title>Выбрать раздел Планшеты</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791637943" stop="1478791643695" status="passed">
+                    <name>goToExtendedSearch</name>
+                    <title>Зайти в расширенный поиск</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791643696" stop="1478791643855" status="passed">
+                    <name>setPriceFrom[20000]</name>
+                    <title>Задать параметр поиска - Цена от 20000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791643856" stop="1478791644043" status="passed">
+                    <name>setPriceTo[25000]</name>
+                    <title>Задать параметр поиска - Цена до 25000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791644589" stop="1478791644929" status="passed">
+                    <name>chooseManufacturer[Acer]</name>
+                    <title>Выбрать производителя Acer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791644933" stop="1478791645727" status="passed">
+                    <name>chooseManufacturer[DELL]</name>
+                    <title>Выбрать производителя DELL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791645728" stop="1478791651097" status="passed">
+                    <name>clickOnApplyButton</name>
+                    <title>Нажать кнопку Применить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791651314" stop="1478791651314" status="passed">
+                    <name>checkResultsCount[[[[FirefoxDriver: firefox on WINDOWS (417d3357-92d5-49c2-8fbf-5c58f77226ed)] -&gt; xpath: //h3/a[contains...]</name>
+                    <title>Проверить, что элементов на странице 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791651317" stop="1478791651528" status="passed">
+                    <name>getFirstResultTitle</name>
+                    <title>Запомнить первый элемент в списке</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791651530" stop="1478791661271" status="passed">
+                    <name>search[Acer Iconia One B1-850 16Gb]</name>
+                    <title>Ввести в поисковую строку значение и начать поиск.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1478791661450" stop="1478791661450" status="passed">
+                    <name>checkProductTitle[Acer Iconia One B1-850 16Gb, Acer Iconia One B1-850 16Gb]</name>
+                    <title>Проверить, что наименование товара соответствует запомненному значению</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ПК-ПК"/>
+                <label name="thread" value="4684@ПК-ПК.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,68 @@
+{
+  "time" : {
+    "start" : 1478791573423,
+    "stop" : 1478791661450,
+    "duration" : 88027
+  },
+  "testSuites" : [ {
+    "uid" : "1e050efaa7e65bf7",
+    "name" : "ru.bk.akadnikov.tests.MarketNotebook",
+    "title" : "Яндекс маркет - Ноутбуки",
+    "time" : {
+      "start" : 1478791573423,
+      "stop" : 1478791625794,
+      "duration" : 52371
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "523b9c92c4878ceb",
+      "name" : "yandexMarketNotebooksTest",
+      "title" : "Тест",
+      "time" : {
+        "start" : 1478791573423,
+        "stop" : 1478791625794,
+        "duration" : 52371
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "ec854b93b8ccb7db",
+    "name" : "ru.bk.akadnikov.tests.MarketTablet",
+    "title" : "Яндекс маркет - Планшеты",
+    "time" : {
+      "start" : 1478791625801,
+      "stop" : 1478791661450,
+      "duration" : 35649
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "4a3ce664a27d0941",
+      "name" : "MarketTabletTest",
+      "title" : "Тест",
+      "time" : {
+        "start" : 1478791625801,
+        "stop" : 1478791661450,
+        "duration" : 35649
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

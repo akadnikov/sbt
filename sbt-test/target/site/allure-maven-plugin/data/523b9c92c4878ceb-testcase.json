@@ -1,0 +1,227 @@
+{
+  "uid" : "523b9c92c4878ceb",
+  "name" : "yandexMarketNotebooksTest",
+  "title" : "Тест",
+  "time" : {
+    "start" : 1478791573423,
+    "stop" : 1478791625794,
+    "duration" : 52371
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 12
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1e050efaa7e65bf7",
+    "name" : "ru.bk.akadnikov.tests.MarketNotebook",
+    "title" : "Яндекс маркет - Ноутбуки"
+  },
+  "steps" : [ {
+    "name" : "chooseMarket",
+    "title" : "Перейти в яндекс маркет",
+    "time" : {
+      "start" : 1478791588183,
+      "stop" : 1478791591349,
+      "duration" : 3166
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chooseComputers",
+    "title" : "Выбрать раздел Компьютеры",
+    "time" : {
+      "start" : 1478791591360,
+      "stop" : 1478791596471,
+      "duration" : 5111
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chooseNotebooks",
+    "title" : "Выбрать раздел Ноутбуки",
+    "time" : {
+      "start" : 1478791596473,
+      "stop" : 1478791599314,
+      "duration" : 2841
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToExtendedSearch",
+    "title" : "Зайти в расширенный поиск",
+    "time" : {
+      "start" : 1478791599319,
+      "stop" : 1478791604870,
+      "duration" : 5551
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setPriceTo[30000]",
+    "title" : "Задать параметр поиска - Цена до 30000",
+    "time" : {
+      "start" : 1478791604873,
+      "stop" : 1478791605457,
+      "duration" : 584
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chooseManufacturer[Acer]",
+    "title" : "Выбрать производителя Acer",
+    "time" : {
+      "start" : 1478791610876,
+      "stop" : 1478791611422,
+      "duration" : 546
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chooseManufacturer[Lenovo]",
+    "title" : "Выбрать производителя Lenovo",
+    "time" : {
+      "start" : 1478791611423,
+      "stop" : 1478791611809,
+      "duration" : 386
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickOnApplyButton",
+    "title" : "Нажать кнопку Применить",
+    "time" : {
+      "start" : 1478791611811,
+      "stop" : 1478791616935,
+      "duration" : 5124
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkResultsCount[[[[FirefoxDriver: firefox on WINDOWS (417d3357-92d5-49c2-8fbf-5c58f77226ed)] -> xpath: //h3/a[contains...]",
+    "title" : "Проверить, что элементов на странице 12",
+    "time" : {
+      "start" : 1478791617227,
+      "stop" : 1478791617657,
+      "duration" : 430
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getFirstResultTitle",
+    "title" : "Запомнить первый элемент в списке",
+    "time" : {
+      "start" : 1478791617661,
+      "stop" : 1478791617915,
+      "duration" : 254
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "search[Lenovo IdeaPad 100 15]",
+    "title" : "Ввести в поисковую строку значение и начать поиск.",
+    "time" : {
+      "start" : 1478791617918,
+      "stop" : 1478791625672,
+      "duration" : 7754
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkProductTitle[Lenovo IdeaPad 100 15, Lenovo IdeaPad 100 15]",
+    "title" : "Проверить, что наименование товара соответствует запомненному значению",
+    "time" : {
+      "start" : 1478791625783,
+      "stop" : 1478791625790,
+      "duration" : 7
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "4684@ПК-ПК.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Яндекс маркет - Ноутбуки"
+  }, {
+    "name" : "suite-name",
+    "value" : "ru.bk.akadnikov.tests.MarketNotebook"
+  }, {
+    "name" : "host",
+    "value" : "ПК-ПК"
+  } ],
+  "parameters" : [ ]
+}

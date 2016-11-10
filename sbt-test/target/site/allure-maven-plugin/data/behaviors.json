@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "81df7c5f09c07c33",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "523b9c92c4878ceb",
+        "name" : "yandexMarketNotebooksTest",
+        "title" : "Тест",
+        "time" : {
+          "start" : 1478791573423,
+          "stop" : 1478791625794,
+          "duration" : 52371
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4a3ce664a27d0941",
+        "name" : "MarketTabletTest",
+        "title" : "Тест",
+        "time" : {
+          "start" : 1478791625801,
+          "stop" : 1478791661450,
+          "duration" : 35649
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

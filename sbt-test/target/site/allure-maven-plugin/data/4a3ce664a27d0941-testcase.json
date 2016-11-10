@@ -1,0 +1,242 @@
+{
+  "uid" : "4a3ce664a27d0941",
+  "name" : "MarketTabletTest",
+  "title" : "Тест",
+  "time" : {
+    "start" : 1478791625801,
+    "stop" : 1478791661450,
+    "duration" : 35649
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 13
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ec854b93b8ccb7db",
+    "name" : "ru.bk.akadnikov.tests.MarketTablet",
+    "title" : "Яндекс маркет - Планшеты"
+  },
+  "steps" : [ {
+    "name" : "chooseMarket",
+    "title" : "Перейти в яндекс маркет",
+    "time" : {
+      "start" : 1478791627963,
+      "stop" : 1478791630560,
+      "duration" : 2597
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chooseComputers",
+    "title" : "Выбрать раздел Компьютеры",
+    "time" : {
+      "start" : 1478791630561,
+      "stop" : 1478791634855,
+      "duration" : 4294
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chooseTablets",
+    "title" : "Выбрать раздел Планшеты",
+    "time" : {
+      "start" : 1478791634857,
+      "stop" : 1478791637941,
+      "duration" : 3084
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToExtendedSearch",
+    "title" : "Зайти в расширенный поиск",
+    "time" : {
+      "start" : 1478791637943,
+      "stop" : 1478791643695,
+      "duration" : 5752
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setPriceFrom[20000]",
+    "title" : "Задать параметр поиска - Цена от 20000",
+    "time" : {
+      "start" : 1478791643696,
+      "stop" : 1478791643855,
+      "duration" : 159
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setPriceTo[25000]",
+    "title" : "Задать параметр поиска - Цена до 25000",
+    "time" : {
+      "start" : 1478791643856,
+      "stop" : 1478791644043,
+      "duration" : 187
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chooseManufacturer[Acer]",
+    "title" : "Выбрать производителя Acer",
+    "time" : {
+      "start" : 1478791644589,
+      "stop" : 1478791644929,
+      "duration" : 340
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chooseManufacturer[DELL]",
+    "title" : "Выбрать производителя DELL",
+    "time" : {
+      "start" : 1478791644933,
+      "stop" : 1478791645727,
+      "duration" : 794
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickOnApplyButton",
+    "title" : "Нажать кнопку Применить",
+    "time" : {
+      "start" : 1478791645728,
+      "stop" : 1478791651097,
+      "duration" : 5369
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkResultsCount[[[[FirefoxDriver: firefox on WINDOWS (417d3357-92d5-49c2-8fbf-5c58f77226ed)] -> xpath: //h3/a[contains...]",
+    "title" : "Проверить, что элементов на странице 12",
+    "time" : {
+      "start" : 1478791651314,
+      "stop" : 1478791651314,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getFirstResultTitle",
+    "title" : "Запомнить первый элемент в списке",
+    "time" : {
+      "start" : 1478791651317,
+      "stop" : 1478791651528,
+      "duration" : 211
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "search[Acer Iconia One B1-850 16Gb]",
+    "title" : "Ввести в поисковую строку значение и начать поиск.",
+    "time" : {
+      "start" : 1478791651530,
+      "stop" : 1478791661271,
+      "duration" : 9741
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkProductTitle[Acer Iconia One B1-850 16Gb, Acer Iconia One B1-850 16Gb]",
+    "title" : "Проверить, что наименование товара соответствует запомненному значению",
+    "time" : {
+      "start" : 1478791661450,
+      "stop" : 1478791661450,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Яндекс маркет - Планшеты"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "4684@ПК-ПК.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "ru.bk.akadnikov.tests.MarketTablet"
+  }, {
+    "name" : "host",
+    "value" : "ПК-ПК"
+  } ],
+  "parameters" : [ ]
+}
